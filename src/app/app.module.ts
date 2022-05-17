@@ -9,6 +9,7 @@ import { UserListComponent } from './user-list/user-list.component';
 import { UserComponent } from './user/user.component';
 import { HighlightDirective } from './highlight.directive';
 import { TransferPipe } from './transfer.pipe';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TransferPipe } from './transfer.pipe';
     UserListComponent,
     UserComponent,
     HighlightDirective,
-    TransferPipe
+    TransferPipe,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule

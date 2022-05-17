@@ -5,5 +5,18 @@ import { Injectable } from '@angular/core';
 })
 export class UserprofileService {
 
-  constructor() { }
+  constructor() {
+
+  }
+  getAddress() {
+    let add = {
+      area: 'Balewadi',
+      locality: 'Punchshil BusinessPark',
+      city: 'Pune'
+    };
+    return add;
+  }
+  getCompanyName() {
+    return 'T-Systems ICT India Pvt. Ltd.';
+  }
 }
