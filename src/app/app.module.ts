@@ -10,6 +10,7 @@ import { UserComponent } from './user/user.component';
 import { HighlightDirective } from './highlight.directive';
 import { TransferPipe } from './transfer.pipe';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     TransferPipe,
     ContactUsComponent
   ],
-  imports: [
+  imports: [ 
+    HttpClientModule,
     BrowserModule
   ],
   providers: [],
